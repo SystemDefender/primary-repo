@@ -1,0 +1,14 @@
+{
+  "name": "dimndskier-sidedoor",
+  "version": "0.1.0",
+  "author": "dimndskier",
+  "summary": "Backdoors are illegal, sometimes you need a local account to ensure uninterruptable access to a system - even if LDAP/AD is down; this is the solution by creating a localgroup and localaccounts enabled with sudo (if necessary).",
+  "license": "Apache-2.0",
+  "source": "source.dimndskier.com/modules/sidedoor",
+  "project_page": "info.dimndskier.com/modules/sidedoor",
+  "issues_url": "issues.dimndskier.com/modules/sidedoor",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
